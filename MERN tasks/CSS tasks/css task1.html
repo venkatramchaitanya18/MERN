@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <style>
+        table{
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: lightgreen;
+            margin-top: 10%;
+        }
+        td, th {
+            border: 2px solid black;
+            padding: 8px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .container{
+            height: 300px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 500px;
+
+        }
+        .sub{
+            height: 300px;
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .sub1{
+            height: 60px;
+            width: 100px;
+            border: 2px solid orange;
+        }
+        #first{
+            border-radius: 10px;
+        }
+        #second{
+            border-radius: 15px ;
+        }
+        #third{
+            border-radius: 20px;
+        }
+        #fourth{
+            border-radius:5px ;
+        }
+        #fifth{
+            border-radius: 0px;
+        }
+        #sixth{
+            border-radius: 10px;
+        }
+        #seven{
+            border-radius: 100px;
+        }
+        #eight{
+            border-radius: 2px;
+        }
+        #nine{
+            border-radius: 0px 15px 0px 15px;
+        }
+        div{
+
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table><br><br>
+
+<div class="container">
+    <div class="sub">
+        <div id="first" class="sub1"></div>
+        <div id="second" class="sub1"></div>
+        <div id="third" class="sub1"></div>
+    </div>
+    <div class="sub">
+        <div id="fourth" class="sub1"></div>
+        <div id="fifth" class="sub1"></div>
+        <div id="sixth" class="sub1"></div>
+        
+    </div>
+    <div class="sub">
+        <div id="seven" class="sub1"></div>
+        <div id="eight" class="sub1"></div>
+        <div id="nine" class="sub1"></div>
+        
+    </div>
+</div>
+
+</body>
+</html>
